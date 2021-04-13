@@ -21,13 +21,13 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 # 打包litemall-admin
 cd $LITEMALL_HOME/litemall-admin
-cnpm install
-cnpm run build:dep
+yarn install
+yarn run build:dep
 
 # 打包litemall-vue
 cd $LITEMALL_HOME/litemall-vue
-cnpm install
-cnpm run build:dep
+yarn install
+yarn run build:dep
 
 cd $LITEMALL_HOME
 mvn clean package
